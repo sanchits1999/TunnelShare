@@ -63,7 +63,7 @@ const Home = (props) => {
                                 </div>
                             </div>
                             <div className={Hstyle.downloadb}>
-                                <div onClick={()=>{openInNewTab(https://drive.google.com/file/d/1GYjAf-SgrKSydPyB-eJLnlNCpOLXp5qG/view)}} className={Hstyle.downloadt}>
+                                <div onClick={()=>{openInNewTab("https://drive.google.com/file/d/1GYjAf-SgrKSydPyB-eJLnlNCpOLXp5qG/view")}} className={Hstyle.downloadt}>
                                     Download
                                 </div>
                             </div>
