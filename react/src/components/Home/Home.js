@@ -8,7 +8,7 @@ import QRCode from "qrcode.react"
 const Home = (props) => {
 
     const socketRef = useRef();
-    const EXTPORT = "http://127.0.0.1:3001"
+    const EXTPORT = "https://tunnelshare.herokuapp.com"
     const [socketId, setSocketId] = useState("")
     const [link, setlink] = useState("Link Recieved")
 
