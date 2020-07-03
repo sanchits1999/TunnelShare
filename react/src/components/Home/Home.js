@@ -5,6 +5,8 @@ import io from "socket.io-client"
 import Paper from '@material-ui/core/Paper';
 import QRCode from "qrcode.react"
 
+
+
 const Home = (props) => {
 
     const socketRef = useRef();
@@ -61,7 +63,7 @@ const Home = (props) => {
                                 </div>
                             </div>
                             <div className={Hstyle.downloadb}>
-                                <div className={Hstyle.downloadt}>
+                                <div onClick={()=>{openInNewTab(https://drive.google.com/file/d/1GYjAf-SgrKSydPyB-eJLnlNCpOLXp5qG/view)}} className={Hstyle.downloadt}>
                                     Download
                                 </div>
                             </div>
