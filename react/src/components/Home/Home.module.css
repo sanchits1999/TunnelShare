@@ -1,0 +1,161 @@
+.parent{
+    height: 100vh;
+    width: 100%;
+    background-color: #2196f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height : 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Limage{
+    color: #ffffff; 
+    margin-bottom: 6px;
+}
+
+.Ltext{ 
+    font-size: 18px;
+    letter-spacing: 1.5px; 
+    font-weight: 700; 
+    color: #ffffff;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.body{
+    height : 60%;
+    width : 70%; 
+    margin-top: 10vh;
+}
+
+.card{
+    width : 100%;
+    height : 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.qrcode{
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.child{
+    height: 100%;
+    width : 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chead{
+    font-size: 24px;
+    font-weight: bold; 
+    color: #000000;
+    height: 24px;
+    letter-spacing: 1px;
+}
+
+.subhead{
+    margin-top: 20px;
+    opacity: 0.8;
+    font-size: 18px;
+    text-align: center; 
+    color: #000000;
+    letter-spacing: 0.2px;
+}
+
+.link{
+    width : 70%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkt{
+    font-size: 20px;
+    text-align: center; 
+    color: #000000;
+    letter-spacing: 0.5px;
+    max-height: 120px;
+    opacity: 0.8;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.linkt::-webkit-scrollbar {
+    display: none;
+  }
+
+.downloadb{
+    width : 70%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid #2196f3;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadb:hover{
+    background-color: #2196f3;
+}
+
+.downloadt{
+    font-size: 20px;
+    text-align: center; 
+    color: #2196f3;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    height: 100%;
+    border-radius: 30px;
+    padding-top: 14px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.downloadt:hover{
+    color : white;
+}
