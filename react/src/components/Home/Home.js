@@ -25,6 +25,8 @@ const Home = (props) => {
                 openInNewTab(link)
             })
         })
+        
+        alert("Please allow pop ups so the website can function properly")
 
     }, [])
 
